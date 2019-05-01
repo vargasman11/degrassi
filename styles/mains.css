@@ -1,0 +1,66 @@
+html {
+  scroll-behavior: smooth; }
+
+#inner-wrapper {
+  background-color: white; }
+
+#artist,
+#philosophy,
+#gallery {
+  min-height: 70vh; }
+
+/* -------------------------------------------------------------------------- */
+/*                                    Home                                    */
+/* -------------------------------------------------------------------------- */
+#home {
+  min-height: 90vh !important; }
+  #home h2 {
+    font-family: "Permanent Marker", cursive; }
+  #home h4 {
+    font-family: "Just Another Hand", cursive;
+    font-size: 3em; }
+  #home nav {
+    font-family: "Acme", sans-serif;
+    font-size: 1.5em; }
+
+/* -------------------------------------------------------------------------- */
+/*                               Artist Section                               */
+/* -------------------------------------------------------------------------- */
+#artist {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.9; }
+  #artist #p-image {
+    padding: 0 10px; }
+
+/* -------------------------------------------------------------------------- */
+/*                                   Gallery                                  */
+/* -------------------------------------------------------------------------- */
+#gallery h1 {
+  font-family: "Permanent Marker", cursive; }
+
+/* -------------------------------------------------------------------------- */
+/*                                 philosophy                                 */
+/* -------------------------------------------------------------------------- */
+#philosophy #philosophy-overlay h1 {
+  font-family: "Just Another Hand", cursive;
+  font-size: 4em; }
+
+#philosophy #philosophy-overlay blockquote h3 {
+  font-weight: 300 !important; }
+
+#philosophy #philosophy-overlay blockquote footer {
+  font-weight: 500 !important; }
+
+#dad h1 {
+  font-family: "Permanent Marker", cursive; }
+
+#dad h2 {
+  font-family: "Just Another Hand", cursive; }
+
+#dad #carouselFamily {
+  min-width: 100% !important; }
+  #dad #carouselFamily .carousel-control-next-icon,
+  #dad #carouselFamily .carousel-control-prev-icon {
+    background-color: green;
+    padding: 5px 10px;
+    height: 30px; }
