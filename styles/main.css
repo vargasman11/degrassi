@@ -22,6 +22,9 @@ html {
   #home nav {
     font-family: "Acme", sans-serif;
     font-size: 1.5em; }
+  #home img {
+    transform: rotate(90deg);
+    border-radius: 15px; }
 
 /* -------------------------------------------------------------------------- */
 /*                               Artist Section                               */
