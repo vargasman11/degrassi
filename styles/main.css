@@ -1,6 +1,14 @@
 html {
   scroll-behavior: smooth; }
 
+.background-video {
+  color: blue;
+  position: absolute;
+  min-height: 100vh; }
+
+#outer-wrapper {
+  background-color: rgba(0, 0, 0, 0); }
+
 #inner-wrapper {
   background-color: white; }
 
@@ -44,26 +52,39 @@ html {
 /* -------------------------------------------------------------------------- */
 /*                                 philosophy                                 */
 /* -------------------------------------------------------------------------- */
-#philosophy #philosophy-overlay h1 {
-  font-family: "Just Another Hand", cursive;
-  font-size: 4em; }
+#dad {
+  padding: 50px 0px; }
+  #dad h1 {
+    font-family: "Permanent Marker", cursive; }
+  #dad h2 {
+    font-family: "Just Another Hand", cursive; }
+  #dad #carouselFamily {
+    min-width: 100% !important; }
+    #dad #carouselFamily .carousel-control-next-icon,
+    #dad #carouselFamily .carousel-control-prev-icon {
+      background-color: green;
+      padding: 5px 10px;
+      height: 30px; }
 
-#philosophy #philosophy-overlay blockquote h3 {
-  font-weight: 300 !important; }
+@media (min-width: 1199.98px) {
+  #dad #carouselFamily .carousel-inner {
+    display: flex; }
+  #dad #carouselFamily .carousel-item {
+    margin: 0 auto;
+    min-height: 50px;
+    max-height: 600px;
+    max-width: 80%; } }
 
-#philosophy #philosophy-overlay blockquote footer {
-  font-weight: 500 !important; }
-
-#dad h1 {
-  font-family: "Permanent Marker", cursive; }
-
-#dad h2 {
-  font-family: "Just Another Hand", cursive; }
-
-#dad #carouselFamily {
-  min-width: 100% !important; }
-  #dad #carouselFamily .carousel-control-next-icon,
-  #dad #carouselFamily .carousel-control-prev-icon {
-    background-color: green;
-    padding: 5px 10px;
-    height: 30px; }
+@media (max-width: 575.98px) {
+  html {
+    min-height: 100%; }
+  #dad #carouselFamily {
+    padding-left: 0px !important;
+    padding-right: 0px !important; }
+    #dad #carouselFamily .carousel-item {
+      min-height: 50px;
+      max-height: 400px; }
+  #dad .d-block {
+    width: 100% !important; }
+  #familyFix {
+    object-position: center bottom !important; } }
